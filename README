@@ -1,0 +1,57 @@
+# README for JavaScript P. Aequor Script
+
+This README provides an overview of a JavaScript script that simulates the DNA of a fictional organism called P. Aequor. The script includes functions and methods to create P. Aequor specimens objects, simulate mutations, compare DNA strands, and determine the likelihood of survival based on the DNA composition.
+
+## Table of Contents
+- [Description](#description)
+- [How to Use](#how-to-use)
+- [Functions](#functions)
+  - [returnRandBase](#returnRandBase)
+  - [mockUpStrand](#mockUpStrand)
+  - [pAequorFactory](#pAequorFactory)
+  - [compareDNA](#compareDNA)
+  - [willLikelySurvive](#willLikelySurvive)
+  - [podOfPAequor](#podOfPAequor)
+  - [podLikelyToSurvive](#podLikelyToSurvive)
+
+## Description
+The provided JavaScript script defines a set of functions to simulate P. Aequor DNA, create P. Aequor specimens, mutate DNA, compare DNA strands, and determine the likelihood of survival based on DNA composition. P. Aequor is a fictional organism with a DNA sequence composed of four bases: 'A', 'T', 'C', and 'G'.
+
+## How to Use
+1. Copy the JavaScript code into your preferred code editor or environment.
+2. Execute the script to create P. Aequor specimens, simulate mutations, compare DNA, and determine the likelihood of survival based on DNA composition.
+3. You can customize the script by changing parameters or using the provided functions for your specific needs.
+
+## Functions
+
+### `returnRandBase`
+- Description: Returns a random DNA base ('A', 'T', 'C', or 'G').
+- Usage: Call this function to get a random DNA base.
+
+### `mockUpStrand`
+- Description: Returns a random single strand of DNA containing 15 bases.
+- Usage: Call this function to generate a random DNA strand with 15 bases.
+
+### `pAequorFactory(specimenNum, dna)`
+- Description: Creates a P. Aequor specimen with the given specimen number and DNA sequence. It also includes methods to mutate the DNA.
+- Usage: Call this function with a specimen number and DNA sequence to create a P. Aequor specimen.
+
+### `compareDNA(diffPAequor)`
+- Description: Calculates the percentage of DNA bases that two different P. Aequor specimens have in common.
+- Usage: Call this method on a P. Aequor specimen and pass another specimen as `diffPAequor` to compare their DNA.
+
+### `willLikelySurvive(dna)`
+- Description: Determines if a P. Aequor specimen is likely to survive based on the percentage of 'C' and 'G' bases in its DNA.
+- Usage: Call this method on a P. Aequor specimen to check its likelihood of survival. Optionally, you can pass a different DNA sequence as an argument.
+
+### `podOfPAequor(size)`
+- Description: Creates an array of P. Aequor specimens with the specified size.
+- Usage: Call this function with the desired number of specimens to create a pod of P. Aequor organisms.
+
+### `podLikelyToSurvive(pod)`
+- Description: Determines the percentage of P. Aequor specimens in a pod that are likely to survive based on their DNA.
+- Usage: Call this function with a pod of P. Aequor specimens to calculate the percentage of organisms likely to survive.
+
+For example usages of these functions, refer to the provided code in the script.
+
+Feel free to modify and extend this script to suit your specific requirements.
